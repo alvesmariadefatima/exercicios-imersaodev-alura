@@ -7,13 +7,11 @@ body {
   background-repeat: no-repeat;
 }
 
-p {
-  color: white;
-  font-size: 20px;
-}
 h1 {
   color: white;
-  font-size: 20px;
+}
+p {
+  color: white;
 }
 .container {
   text-align: center;
@@ -41,10 +39,34 @@ h1 {
   right: 10px;
 }
 
-body > img {
-  margin: 0 10px;
+#listaFilmes img {
+  margin: 10px;
+  max-height: 250px;
 }
 
-img {
-  max-height: 250px;
+.form-wrapper {
+  margin: 0 0 15px;
+}
+
+.form-wrapper input {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 15px;
+}
+
+.form-wrapper button {
+  border: 0;
+  color: #ffffff;
+  background: #da1e26;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-wrapper button:hover {
+  opacity: 0.8;
 }
