@@ -1,56 +1,46 @@
-* {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
 
 body {
-  font-family: "Roboto Mono", monospace;
-  min-height: 400px;
-  background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/tabela-classificacao-bg.png");
-  background-color: #111;
-  background-size: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
+   background: linear-gradient(236.85deg, #FFC0CB	 27.26%, #FF69B4	 96.03%);
+   font-family: 'Playfair Display', serif;
 }
 
 .container {
-  text-align: center;
-  padding: 20px;
-  height: 100vh;
+    background: #ECF4FF;
+    color: #1C1C1C;
+    margin: 64px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px #0E1D2F;
+    padding: 64px;
 }
 
-.page-title {
-  color: #ffffff;
-  margin: 0 0 5px;
+.perfil {
+    display: flex;
+    align-itens: center;
 }
 
-.page-subtitle {
-  color: #ffffff;
-  margin-top: 5px;
+.perfil-foto {
+    border-radius: 460px;
+    max-height: 160px;
+    max-width: 160px;
+    box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
 }
 
-.page-logo {
-  width: 200px;
+.titulo {
+    margin-left: 16px; 
 }
 
-.alura-logo {
-  width: 40px;
-  position: absolute;
-  top: 10px;
-  right: 10px;
+.titulo h1 {
+    font-weight: 700;
+    font-size: 36px;
 }
 
-table {
-  border: 2px solid white;
-  border-collapse: collapse;
+.titulo h3 {
+    font-weight: 400; 
+    font-size: 24px;
 }
 
-h1 {
-  color: white;
-}
-
-th,
-tr,
-td {
-  border: solid 1px white;
-  color: white;
+.projetos {
+    display: flex;
+    flex-direction: column;
 }
