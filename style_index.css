@@ -1,0 +1,34 @@
+body {
+  font-family: 'Roboto Mono',monospace;
+  min-height: 400px;
+  background-color: #FFC0CB;
+  background-size: 80vh;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color:#C71585;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #C71585;
+  margin-top: 5px;
+}
+
+h1 {
+    font-family: Arial;
+    color: #C71585; 
+}
+
+p {
+    font-family: Times New Roman;
+    color: #C71585;
+}
